@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const listMessage = document.getElementById('list-message');
 
     // Update API URL to match server.js endpoint
-    const API_URL = `http://${window.location.host}/reserve`; // Changed to match server.js route
+    const API_URL = `https://${window.location.host}/reserve`; // Changed to match server.js route
 
     // --- Helper Functions ---
     const showMessage = (element, message, type = 'error') => {
